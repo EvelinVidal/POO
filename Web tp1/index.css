@@ -1,0 +1,43 @@
+body{
+    background-color: #a59ae7;
+}
+p{
+    color: rgb(18, 99, 58);
+    background-color: #b7aeeb;
+}
+.parrafoAzul{
+    color: #885b09;
+    text-align:justify ;
+    font-size:larger;
+    background-color: #b7aeeb;
+}
+#parrafoRojo{
+    color: rgb(97, 11, 11);
+    text-align: justify;
+    background-color: #b7aeeb;
+}
+.tituloPrincipal{
+    color: #c9c5e0;
+    text-align: center;
+background-color: #584ba3;
+}
+ul{
+    font-size: x-large;
+    list-style-type:square;
+}
+ol{
+    font-size: x-large;
+}
+#listaOrdenada{
+    color: rgb(68, 8, 68);
+}
+img{
+width: 600x;
+height: 400px;
+align-content: center;
+
+}
+.img-center{
+    margin:auto;
+    display: block;
+}
