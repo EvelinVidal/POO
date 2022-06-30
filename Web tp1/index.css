@@ -1,43 +1,80 @@
 body{
-    background-color: #a59ae7;
+    background-color: #f3dce7;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 p{
-    color: rgb(18, 99, 58);
-    background-color: #b7aeeb;
+    color: rgb(13, 10, 24);
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: medium;
+    font-weight: bolder;
 }
-.parrafoAzul{
-    color: #885b09;
+#tituloPrincipal{ 
+    color: #272727;
+    text-align: center;
+font-weight: bold;
+margin-top: 50px;
+}
+#subtitulo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.parrafoGris{
+    color: #424042;
     text-align:justify ;
     font-size:larger;
-    background-color: #b7aeeb;
+    background-color: #e9755196	;
 }
-#parrafoRojo{
-    color: rgb(97, 11, 11);
-    text-align: justify;
-    background-color: #b7aeeb;
-}
-.tituloPrincipal{
-    color: #c9c5e0;
+
+#parrafo3{
+    color: rgb(255, 255, 255);
     text-align: center;
-background-color: #584ba3;
+    font-size: medium;
+    background-color: #ff7a59;
 }
-ul{
-    font-size: x-large;
-    list-style-type:square;
-}
-ol{
-    font-size: x-large;
-}
-#listaOrdenada{
-    color: rgb(68, 8, 68);
+
+#encabezado{
+    background-color: #dbf7a6d3;
+    color: rgb(68, 60, 60);
+  
+    text-align: center;
 }
 img{
-width: 600x;
-height: 400px;
+width: 800px;
+height: 500px;
 align-content: center;
 
 }
 .img-center{
     margin:auto;
     display: block;
+}
+#lista1{
+    color: rgba(241, 231, 231, 0.877);
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #c70038c9;
+    text-align: center;
+   font-size: x-large;
+    list-style-type:square;
+}
+#items1{
+    color: #010118;
+    background-color: #ffffff;
+    text-align: justify;
+        background-color: rgb(255, 255, 255);
+}
+#titulolista2{
+    color: rgb(255, 255, 255);
+    background-color: #A95C68	;
+    text-align: center;
+    margin-right: 570px;
+    margin-left: 50px;
+}
+#items2{
+    color: #f86945;
+    background-color: #ffffff;
+    text-align: left;   
+    font-weight: bold;
 }

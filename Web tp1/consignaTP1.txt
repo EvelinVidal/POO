@@ -1,0 +1,7 @@
+Hacer un sitio q tenga un titulo, 
+un subtitulo 
+Tres parrafos con:
+ 1 con selector tipo 
+ 1 con selector clase 
+ 1 con selector id 
+ darle a cada parrafo diferente colore, letra, alineacion y fondo (color) insertar en el sitio -una imagen -una lista ordenada -una lista desordenada
