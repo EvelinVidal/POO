@@ -1,0 +1,23 @@
+
+                                        TRABAJOS PRÁCTICOS ENTREGABLES
+    TRABAJO PRÁCTICO  1: 
+
+ Hacer un sitio q tenga un titulo, 
+ - un subtitulo 
+ Tres parrafos con:
+  1 con selector tipo 
+  1 con selector clase 
+  1 con selector id 
+  darle a cada parrafo diferente colore, letra, alineacion y fondo (color) 
+  insertar -una imagen -una lista ordenada -una lista desordenada
+
+
+    TRABAJO PRÁCTICO  2:
+ 
+ AGREGAR:
+ - Dos o más <div>
+ - A cada uno darle las propiedades vistas: (borde, padding, margen, tamaño) y contenido (títulos, párrafo, imagen)
+ - Probar cómo se modifica la apariencia cambiando el tamaño, padding, margenes y bordes.
+ - Agregar <div> con tamaño en porcentaje, ver que sucede cuando achicamos la ventana. 
+
+
