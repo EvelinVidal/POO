@@ -1,0 +1,163 @@
+.encabezado{
+    background-color: 		#96DED1;
+    padding: 2%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+.centrado{
+    text-align: center;
+}
+
+.titulos{
+    background-color: #96DED1;
+}
+.titulo1{
+background-color: #2e837380;
+margin-left: 11%;
+margin-right: 11%;
+height: 30%;
+padding: 3%;
+}
+.titulo2{
+    background-color:#c1e7e4 ;
+    text-align: center;
+    margin-left: 11%;
+    margin-right: 11%;
+    height: 30%;
+padding: 3%;
+
+}
+p{
+    color: rgb(0, 0, 0);
+font-size: x-large;
+text-align: justify;
+}
+.reel{
+    background-color: #37e2d4;
+    margin-left:1%;
+    margin-right: 1%;
+}
+
+
+.imagenes{
+background-color: rgba(255, 255, 255, 0.596);
+
+
+}
+.reel1{
+  
+    display: inline-block;
+    width: 15%;
+    height:15%;
+    margin-left: 11%;
+    margin-right: 5.5%;
+}
+.reel2{
+  
+    display: inline-block;
+    width: 15%;
+    height:15%;
+    margin-right: 5.5%;
+}
+.reel3{
+  
+    display: inline-block;
+    width: 15%;
+    height:15%;
+    margin-right: 5.5%;
+}
+.reel4{
+  
+    display: inline-block;
+    width: 15%;
+    height:15%;
+    margin-right: 11%;
+}
+.medioA{
+    background-color: #96DED1;
+}
+.medioB{
+    background-color: 	#96DED1;
+    margin-left: 11%;
+margin-right: 11%;
+height: 30%;
+padding: 3%;
+   }
+.texto{
+background-color: aliceblue;
+padding: 3%;
+margin-left: 11%;
+margin-right: 11%;
+ }
+.img1{
+max-height: 100%;
+max-width: 100%;
+}
+#playaIMG{
+    margin-left: 11%;
+    margin-right: 11%;
+    align-content: center;
+}
+.fotos{
+    margin-left: 11%;
+    margin-right: 11%;
+    height: 30%;
+    padding: 3%;
+}
+.listas{
+background-color: #96DED1;
+}
+.listaA{
+    background-color: 	#ADD8E6;
+    padding: 1%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+.listaB{
+    background-color: #ADD8E6;
+    padding: 1%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+#tituloLista1{
+    color: rgba(255, 255, 255, 0.877);
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #5F9EA0;
+    text-align: center;
+   font-size: x-large;
+    list-style-type:square;
+    padding: 3%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+#items1{
+    color: #010118;
+    background-color: #ffffff;
+    text-align: center;
+        background-color: rgb(255, 255, 255);
+        font-size: x-large;
+        padding: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+}
+#tituloLista2{
+    color: rgb(255, 255, 255);
+    background-color: #5F9EA0	;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    padding: 3%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+#items2{
+    color: #36454F;
+    background-color: #ffffff;
+    text-align: left;   
+    font-weight: bold;
+    font-size: x-large;
+    padding: 3%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
