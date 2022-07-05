@@ -64,9 +64,11 @@ background-color: rgba(255, 255, 255, 0.596);
 }
 .medioA{
     background-color: #96DED1;
+
 }
 .medioB{
     background-color: 	#96DED1;
+    font-family:Arial, Helvetica, sans-serif ;
    }
 .texto{
 background-color: aliceblue;
@@ -85,6 +87,7 @@ max-width: 100%;
 }
 .listas{
 background-color: #96DED1;
+font-family: Arial, Helvetica, sans-serif;
 }
 .listaA{
     background-color: 	#ADD8E6;
