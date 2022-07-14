@@ -1,0 +1,151 @@
+.div-menu {
+    background-color: #CCCCCC;
+    display: flex;   
+    justify-content: flex-end;
+    border-top-left-radius:  8px;
+    border-top-right-radius: 8px;
+}
+.menu{
+    background-color: green;
+    color: white;     
+    text-align: center;
+    width: 300px;
+padding: 5px;
+border-radius: 4px;
+margin: 5px;
+}
+.logo-menu {
+    background-color: #CCCCCC;  
+     display: flex;    
+     justify-content: flex-start; 
+     border-bottom-left-radius: 8px;
+     border-bottom-right-radius: 8px ;
+}
+
+.div-logo {
+    background-color: blue;
+    color: white;
+    width: 300px;
+    border-radius: 4px;
+margin-right: 175px;
+margin: 5px;
+padding: 5px;
+}
+
+.div-menu2 {
+    background-color: #660000;
+    color: white;
+    text-align: center;
+    width: 300px;
+    border-radius: 4px;
+flex-grow: 1;
+margin: 5px;
+padding: 5px;
+}
+
+.superior {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+
+}
+
+.div-izquierdo {
+    background-color: #333333;
+    color: whitesmoke;
+    padding: 2%;
+    width: 250px;
+    height: 350px;
+    border-radius: 8px;
+
+}
+
+.facebook {
+    width: 55%;
+    height: 48px;
+    margin-left: 19%;
+    margin-right: 5%;
+}
+
+.div-centro {
+    background-color: #009999;
+    padding: 2%;
+    width: 250px;
+    height: 350px;
+    border-radius: 8px;
+
+}
+
+.youtube {
+    width: 55%;
+    height: 48px;
+    margin-left: 19%;
+    margin-right: 5%;
+
+}
+
+.div-derecho {
+    background-color: #FF9934;
+    padding: 2%;
+    height: 350px;
+    border-radius: 8px;
+width: 250px;
+
+}
+
+.whatsapp {
+    width: 63%;
+    height: 43px;
+    margin-left: 19%;
+    margin-right: 5%;
+}
+
+.medio {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2%;
+    border-radius: 8px;
+}
+
+.div-izquierdo2 {
+    background-color: #013300;
+    color: white;
+    width: 765px;
+    padding: 4%;
+    height: 320px;
+    border-radius: 8px;
+
+
+}
+
+.div-derecho2 {
+    background-color: #993400;
+    color: white;
+    padding: 4%;
+    width: 285px;
+    height: 320px;
+    border-radius: 8px;
+
+
+}
+
+.pie {
+border-radius: 8px;
+    background-color: #00CCFF;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div-elemento {
+    background-color: #083065;
+    color: white;
+    width: fit-content;
+    margin-top: 5%;
+    margin-right: 3%;
+    border-radius: 4px;
+
+}
