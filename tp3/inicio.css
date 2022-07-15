@@ -55,7 +55,7 @@ padding: 5px;
     background-color: #333333;
     color: whitesmoke;
     padding: 2%;
-    width: 250px;
+    width: 260px;
     height: 350px;
     border-radius: 8px;
 
@@ -71,7 +71,7 @@ padding: 5px;
 .div-centro {
     background-color: #009999;
     padding: 2%;
-    width: 250px;
+    width: 260px;
     height: 350px;
     border-radius: 8px;
 
@@ -88,9 +88,9 @@ padding: 5px;
 .div-derecho {
     background-color: #FF9934;
     padding: 2%;
+    width: 260px;
     height: 350px;
     border-radius: 8px;
-width: 250px;
 
 }
 
@@ -113,7 +113,7 @@ width: 250px;
 .div-izquierdo2 {
     background-color: #013300;
     color: white;
-    width: 765px;
+    width: 600px;
     padding: 4%;
     height: 320px;
     border-radius: 8px;
@@ -125,7 +125,7 @@ width: 250px;
     background-color: #993400;
     color: white;
     padding: 4%;
-    width: 285px;
+    width: 244px;
     height: 320px;
     border-radius: 8px;
 
