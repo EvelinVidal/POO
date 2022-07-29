@@ -1,0 +1,12 @@
+Actividad obligatoria 
+
+- Crear una pagina web que me permita ingresar Nombre Apellido y edad y al presionar un botón
+ me muestre mediante un Alert los tres datos antes mencionados.
+
+Ayuda
+- Crear un documento .HTML
+-          Crear 3 inputs (Nombre, Apellido y edad) con sus respectivos "id's"
+           Crear un botón
+- Crear un documento .JS
+           Obtener los inputs mediante sus "id's" con tres variables diferentes
+           Obtener el valor que contienen los Inputs
