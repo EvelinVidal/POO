@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=}, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo"> Pagina web usando bootstrap </h2>
+            <div class="header-nav">
+                <nav class="navbar navbar-expand-lg navbar-light  border " style="background-color: #86e6dc;">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Tendencias</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Secciones
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Redes sociales</a></li>
+                                        <li><a class="dropdown-item" href="#">Contacto </a></li>
+                                        <li><a class="dropdown-item" href="#">Acerca de nosotros</a></li>
+
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Ver mas</a></li>
+                                    </ul>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                                <button class="btn btn-outline-success border busqueda" type="submit">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+    </header>
+    <div class="container fotos">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img id="img-1"
+                        src="https://www.viajaraitalia.com/wp-content/uploads/2012/05/Coliseo-de-Roma-abril-2007.jpg"
+                        class="d-block w-100" alt="imagen de roma">
+                </div>
+                <div class="carousel-item">
+                    <img id="img-2" src="https://i.blogs.es/54bf21/pietro-de-grandi-t7k4aepoggk-unsplash/1366_2000.jpeg"
+                        class="d-block w-100" alt="imagen de montañas">
+                </div>
+                <div class="carousel-item">
+                    <img id="img-3" src="https://tipsparatuviaje.com/wp-content/uploads/2019/09/museo-de-louvre.jpg"
+                        class="d-block w-100" alt="imagen de parís">
+                </div>
+                <div class="carousel-item">
+                    <img id="img-4"
+                        src="https://tipsparatuviaje.com/wp-content/uploads/2018/08/santuario-de-kumano-nachi-taisha-japon.jpg"
+                        class="d-block w-100" alt="imagen de parís">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+    <div class="container formulario">
+        <p>INGRESE SUS DATOS EN EL SIGUIENTE FORMULARIO</p>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="mb-3">
+                <label for="direccion" class="form-label">Direccion</label>
+                <input type="text" class="form-control" id="direccion">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Mail</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="ciudad" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="ciudad">
+            </div>
+            <button type="submit" class="btn btn-primary">Aceptar</button>
+        </form>
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

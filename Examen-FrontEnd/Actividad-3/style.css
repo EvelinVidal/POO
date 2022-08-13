@@ -1,0 +1,18 @@
+.logo{
+background-color: rgb(63, 200, 200);
+text-align: center;
+padding: 13px;
+}
+/* modifico las imagenes porque salen desiguales */
+#img-1, #img-2, #img-3, #img-4 {
+height: 460px;
+}
+.fotos{
+  margin-top: 20px;
+margin-bottom: 20px;
+    width: 80%;
+}
+.formulario{
+    margin-top: 50px;
+    width: 70%;
+}

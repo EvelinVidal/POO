@@ -1,0 +1,68 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(181, 12, 12);
+margin: 0;
+}
+p, .subtitulo{
+
+margin-bottom: 5px;
+color: wheat;
+}
+header .logo {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+}
+
+#ladoIzq {
+
+    background-color: orange;
+    height: 310px;
+}
+
+#ladoDer {
+    background-color: blueviolet;
+    height: 210px;
+}
+
+.footer {
+
+    background-color: blue;
+    height: 110px
+}
+
+@media (min-width:720px) {
+
+    .mid {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #ladoIzq {
+
+        height: 500px
+    }
+
+    #ladoDer {
+        height: 500px;
+    }
+
+    .footer {
+
+        background-color: red;
+
+    }
+
+    .header {
+height: 150px;
+        background-color: green;
+    }
+}
