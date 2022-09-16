@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.linkTitulo {
+  text-decoration: none;
+  color: black;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.medio {
+  height: 81.8vh;
+}
+
+                                                /* HEADER */
+header {
+  padding: 5px;
+  height: 75px;
+  background-color: #FFD700		;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header h2 {
+  margin: 0;
+  margin-top: 5px;
+}
+
+header nav a {
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+}
+                                            /* INDEX HTML */
+div img {
+  height: 260px;
+}
+
+.redes_sociales {
+  background-color: #f5aa1f;
+  height: 28px;
+}
+.social_icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+.linkRedes {
+  color: #0e0e0e;
+  text-decoration: none;
+
+}
+.img_icon {
+  width: 20px;
+  height: 20px;
+}
+.imagen_index{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+                                   /* COMPRAR HTLM SECTION */
+
+li {
+  margin-top: 10px;
+}
+#divInput {
+  margin-top: 7px;
+}
+.inputEstilo {
+  margin: 0.5px;
+  width: 50px;
+  height: 30px;
+}
+
+.stockInfo {
+  margin: 11px;
+  padding: 0;
+  color: red;
+}
+.rojo {
+  color: red;
+}
+.negro {
+  color: black;
+}
+
+                                     /* FORM DE CONTACTO */
+.formulario{
+
+    width: 500px;
+}
+
+                                        /* FOOTER */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 45px;
+  background-color: #ffbf00;
+}
+footer a {
+  color: #2b2301;
+  font-weight: bold;
+  margin: 12px;
+  text-decoration: none;
+}
+
+
+                                           /* RESPONSIVE */
+@media (min-width: 720px) {
+  div img {
+    height: 500px;
+    width: 800px;
+  }
+  .oferta-img {
+    height: 300px;
+    width: auto;
+  }
+  .cards_1 {
+    height: 250px;
+    width: 230px;
+  }
+  .cards_all {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
