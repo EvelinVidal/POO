@@ -1,8 +1,0 @@
-A partir de los conceptos vistos en las clases de Javascript web 1 y 2,
-realizar una pagina que funcione como una calculadora, en la que el usuario ingrese dos números 
-( a través de dos inputs) y apretando el botón de la operación deseada (suma o resta) muestre 
-el resultado en el html.
-
-Tambien agregar un estilo, a su elección, a algún elemento de su html usando javascript .
-
-
