@@ -1,3 +1,0 @@
-Plantear la clase que describiste.
-Implementar en TypeScript.
-Transpilar el archivo.

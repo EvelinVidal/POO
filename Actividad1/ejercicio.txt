@@ -1,5 +1,0 @@
-.
--Actividad practica
-Crear un proyecto
-Crear dos archivos con funcionalidades diferentes
-Cada uno utilizando una librería diferente, sin contar readline-sync
