@@ -1,0 +1,10 @@
+.
+-Actividad practica
+Crear un proyecto
+Crear dos archivos con funcionalidades diferentes
+Cada uno utilizando una librería diferente, sin contar readline-sync
+
+
+SCRIPT1: uso de redline-sync
+SCRIPT2: uso de proyect name generator
+SCRIPT3: uso de S-age

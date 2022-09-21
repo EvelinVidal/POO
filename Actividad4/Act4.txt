@@ -1,0 +1,3 @@
+Re-implementar la clase que describiste el viernes pasado.
+Encapsularla y agregar getters y setters.
+

@@ -1,0 +1,14 @@
+Elegir UNO de los dos ejercicios para entregar.
+Crear la clase Rectangulo con las siguientes caracteristicas y su constructor: base, altura 
+La funcionalidad de la clase debe ser:
+-     Calcular el area
+-     Compararlo con otro rectangulo. Devolver 1 si es mayor, 0 son iguales y -1 si es menor.
+-     Determinar si es un cuadrado(si base y altura son iguales).
+-     Determinar si esta acostado o parado(si el alto es mas que el ancho).
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Continuar el ejercicio del registro automotor comenzado en clase  y completar las funciones de borrar un vehiculo, 
+actualizar un vehiculo y dar de alta un vehiculo.
+
+
+SCRIPT: EJERCICIO RECTANGULO.
