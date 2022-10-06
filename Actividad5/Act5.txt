@@ -1,0 +1,17 @@
+Actividad Obligatoria
+       Armar una base de datos de libros:
+Implementar la clase Libro
+Implementar la clase GestorLibros → debe soportar insertar/consultar libros. 
+
+(Esta clase puede estar "compuesta" por un arreglo de libros)
+Subir las cosas a GitHub y avisar por Slack
+
+Actividad no Obligatoria
+
+1 OCT: Actividad optativa
+
+       Agregar a la tarea del viernes pasado.
+Implementar método Eliminar
+Implementar método obtenerIndice
+Implementar método editar libro desde la clase GestorLibros.
+Subir las cosas a GitHub y avisar por Slack
