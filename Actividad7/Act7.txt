@@ -1,0 +1,28 @@
+Actividad Obligatoria
+
+Define una clase abstracta Cuenta con los siguientes atributos:
+NumeroCuenta, saldo, cliente (atributo de la clase Persona (que tiene nombre, apellidos, y DNI))
+y con los siguientes métodos:
+- Constructor parametrizado que recibe un cliente y un número de cuenta
+- Gets y Sets para los tres atributos
+- ingresar: permitirá ingresar una cantidad en la cuenta. 
+- abstract retirar(number): permitirá sacar una cantidad de la cuenta (si hay saldo). No se implementa, 
+depende del tipo de cuenta  
+-abstract actualizarSaldo(): actualizará el saldo de la cuenta, pero cada cuenta lo hace de una forma diferente
+
+Define las subclases de Cuenta que se describen a continuación:  
+
+CuentaCorriente: Cuenta normal con un interés fijo del 1.5%. Incluir constructor parametrizado y método toString().  
+
+CuentaAhorro: Esta cuenta tiene como atributos el interés variable a lo largo del año y un saldo mínimo necesario.
+ Al retirar dinero hay que tener en cuenta que no se sobrepase el saldo mínimo. Incluir constructor parametrizado,
+  método toString() y método para cambiar el interés. 
+
+Crea un programa que cree varias cuentas y pruebe sus características. 
+           
+Entrega obligatoria:
+Tiempo hasta el Viernes 14 de octubre a las 23:59hs
+
+Se deberá mandar el link del ejercicio que tienen en el repositorio.
+Apellidos que comienzan con A a G enviar la captura a Pierina (mensaje privado Slack).
+Apellidos que comienzan con   L a Z enviar la captura a  Rocío (mensaje privado Slack).
