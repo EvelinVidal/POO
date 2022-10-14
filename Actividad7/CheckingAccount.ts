@@ -2,25 +2,25 @@ import { Account } from "./Account";
 import { Person } from "./Person";
 
 export class CheckingAccount extends Account {
-  interest: number;
-  customer:Person;
+  protected interest: number;
+  protected customer: Person;
   constructor(accountNumber: number, customer: Person) {
     super(accountNumber, customer);
     this.interest = 1.5; //fixed interest
     this.customer = customer;
   }
 
-  refreshBalance():void{
-     this.balance *= this.interest;
+  public refreshBalance(): void {
+    this.balance *= this.interest;
   }
-  getInterest(): number {
+  public getInterest(): number {
     return this.interest;
   }
 
-  withdraw(withdrawAmount: number) {
+  public withdraw(withdrawAmount: number) {
     this.balance -= withdrawAmount;
   }
-  toString(): string {
+  public toString(): string {
     return (
       "Customer: " +
       this.customer.getName() +
@@ -28,7 +28,8 @@ export class CheckingAccount extends Account {
       this.customer.getSurname() +
       "\n" +
       "Account number: " +
-      this.getAccountNumber() + "\n"
+      this.getAccountNumber() +
+      "\n"
     );
   }
 }

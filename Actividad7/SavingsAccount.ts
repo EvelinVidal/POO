@@ -1,17 +1,17 @@
 import { Account } from "./Account";
 import { Person } from "./Person";
 export class SavingsAccount extends Account {
-  interest: number;
-  minimum: number;
-  customer: Person;
-  constructor(accountNumber:number, customer: Person) {
+  protected interest: number;
+  protected minimum: number;
+  protected customer: Person;
+  constructor(accountNumber: number, customer: Person) {
     super(accountNumber, customer);
     this.minimum = 100;
-    this.interest = 0; 
+    this.interest = 0;
     this.customer = customer;
   }
 
-  withdraw(withdrawAmount: number) {
+  public withdraw(withdrawAmount: number) {
     console.log("Minimum balance: $" + this.minimum);
     console.log("Current balance: $" + this.balance);
 
@@ -23,17 +23,18 @@ export class SavingsAccount extends Account {
       console.log("the amount exceeds the minimum to operate");
     }
   }
-  setInterest(percentage: number) { // adjustable interest according to a number inserted by parameter. 
+  public setInterest(percentage: number) {
+    // adjustable interest according to a number inserted by parameter.
     this.interest += percentage;
   }
-  refreshBalance(annualInterest: number):void {
- this.interest +=annualInterest
-console.log ( this.balance += (this.balance * this.interest));  // balance = 200
+  public refreshBalance(annualInterest: number): void {
+    this.interest += annualInterest;
+    console.log((this.balance += this.balance * this.interest)); // balance = 200
   }
-  getMinimum():number{
+  public getMinimum(): number {
     return this.minimum;
-  } 
-  toString(): string {
+  }
+  public toString(): string {
     return (
       "Customer: " +
       this.customer.getName() +
@@ -41,8 +42,8 @@ console.log ( this.balance += (this.balance * this.interest));  // balance = 200
       this.customer.getSurname() +
       "\n" +
       "Account number: " +
-      this.getAccountNumber()+ "\n"
+      this.getAccountNumber() +
+      "\n"
     );
   }
- 
 }

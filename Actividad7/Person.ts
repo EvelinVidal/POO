@@ -1,21 +1,20 @@
-export class Person{
-protected name:string;
-protected surname:string;
-protected id:string;
+export class Person {
+  protected name: string;
+  protected surname: string;
+  protected id: string;
 
-constructor(firstName:string, lastName:string, idNumber:string){
-    this.name=firstName;
-    this.surname=lastName;
-    this.id=idNumber;
-
-}
-getName(){
+  constructor(firstName: string, lastName: string, idNumber: string) {
+    this.name = firstName;
+    this.surname = lastName;
+    this.id = idNumber;
+  }
+  public getName() {
     return this.name;
-}
-getSurname(){
+  }
+  public getSurname() {
     return this.surname;
-}
-getID(){ 
-    return this.id; 
-}
+  }
+  public getID() {
+    return this.id;
+  }
 }
